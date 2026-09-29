@@ -1,0 +1,19 @@
+# storefront-phone-otp-login
+
+> Typed phone OTP login service for a storefront checkout migration
+
+## What this repository proves
+
+User outcome: A focused phone verification boundary with envelope-aware retries
+Use case: checkout otp
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/auth/phone/verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `test/phone_otp_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

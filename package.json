@@ -1,0 +1,13 @@
+{
+  "name": "storefront-phone-otp-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/phone_otp_service.ts",
+    "test": "tsx test/phone_otp_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.3" }
+}
