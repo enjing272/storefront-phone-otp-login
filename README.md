@@ -1,6 +1,6 @@
 # Phone OTP at the checkout boundary
 
-This TypeScript service shows the small part of a storefront login flow that matters during a checkout migration: send a one-time code, then turn a verified phone into a login session. Infrai keeps the integration to one API key and a pair of explicit REST calls, so the route can sit beside an incumbent Twilio Verify or Firebase adapter while traffic moves gradually.
+In a Next.js storefront, you often need to swap auth providers without a full rewrite. This TypeScript service isolates the part of a login flow that matters during a checkout migration: send a one-time code, then turn a verified phone into a session. Infrai keeps things to one key and one bill across AI, email, storage and the rest, all plain REST, so the route can sit beside an incumbent Twilio Verify or Firebase adapter while traffic moves gradually.
 
 ## Run the example
 
